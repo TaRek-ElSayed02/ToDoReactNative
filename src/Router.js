@@ -4,11 +4,12 @@ import HomeScreen from "./HomeScreen";
 import DetailsScreen from "./DetailsScreen";
 
 const Stack = createNativeStackNavigator();
+
 const Router = () => {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="Home" component={HomeScreen}  />
-            <Stack.Screen name="Details" component={DetailsScreen}  />
+            <Stack.Screen name="Home" component={HomeScreen} />
+            <Stack.Screen name="Details" component={DetailsScreen} />
         </Stack.Navigator>
     );
 };
